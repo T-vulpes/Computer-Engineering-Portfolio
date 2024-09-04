@@ -2,14 +2,14 @@ body, html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #000000; /* Arka plan siyah */
-    color: #E5E5E5; /* Yazı rengi kırık beyaz */
+    background-color: #000000;
+    color: #E5E5E5; 
     font-family: 'Poppins', sans-serif;
 }
 
 html, body {
     height: 100%;
-    background-color: black; /* Sayfa arka planı */
+    background-color: black; 
 }
 
 .container {
@@ -30,7 +30,7 @@ header h1 {
 
 header p {
     font-size: 1.5em;
-    color: #FFC0CB; /* Açık pembe */
+    color: #FFC0CB; 
 }
 
 
@@ -39,8 +39,8 @@ header p {
     justify-content: space-between;
     align-items: center;
     padding: 15px 0;
-    background-color: #1a1a1a; /* Navbar arka planı koyu */
-    color: #00FF00; /* CMD yeşil rengi */
+    background-color: #1a1a1a; 
+    color: #00FF00; 
 }
 
 .logo-icon {
@@ -71,7 +71,7 @@ header p {
     font-weight: 700;
     letter-spacing: -1px;
     margin-bottom: 20px;
-    color: #00FF00; /* CMD yeşil rengi */
+    color: #00FF00; 
 }
 
 .title {
@@ -84,7 +84,7 @@ header p {
 
 
 .title h2 {
-    color: #00FF00; /* CMD yeşil rengi */
+    color: #00FF00; 
     font-size: 60px;
     font-weight: 700;
     letter-spacing: 1px;
