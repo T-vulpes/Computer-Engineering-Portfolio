@@ -1,0 +1,350 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000000; /* Arka plan siyah */
+    color: #E5E5E5; /* Yazı rengi kırık beyaz */
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    background-color: black; /* Sayfa arka planı */
+}
+
+.container {
+    width: 88%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.5em;
+    color: #FFC0CB; /* Açık pembe */
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    background-color: #1a1a1a; /* Navbar arka planı koyu */
+    color: #00FF00; /* CMD yeşil rengi */
+}
+
+.logo-icon {
+    font-size: 24px;
+}
+
+.logo-icon, .search {
+    font-size: 24px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+
+.img img {
+    width: 30%;
+    position: absolute;
+    z-index: 0;
+    top: 10.6%;
+    left: 65%;
+}
+
+.title h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: -1px;
+    margin-bottom: 20px;
+    color: #00FF00; /* CMD yeşil rengi */
+}
+
+.title {
+    position: relative;
+    top: 50px;
+    left: 50px;
+    z-index: 2;
+}
+
+
+
+.title h2 {
+    color: #00FF00; /* CMD yeşil rengi */
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.title h3 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: .8;
+    position: relative;
+    top: -20px;
+}
+
+.title p {
+    width: 600px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.title h2 span {
+    font-size: 80px;
+}
+
+
+
+.tag {
+    position: relative;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 16px;
+    color: grey;
+    margin-top: 10%;
+}
+
+.line {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #00FF00;
+    width: 230px;
+    height: 1px;
+}
+
+button {
+    background-color: #00FF00;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #035603;
+}
+
+
+.projects-section {
+    margin-top: 100px; /* Proje bölümünü diğer içeriklerden sonra tutmak için boşluk ekleyin */
+    padding: 50px 20px;
+}
+
+.projects-section h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+color:#00FF00;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 15px;
+border-radius:5%;
+}
+
+.project-card:hover {
+    transform: scale(1.05); /* Üstüne gelince büyüme efekti */
+    border: 2px solid #00FF00; /* Yeşil kenarlık */
+   transition: transform 0.3s ease, border 0.3s ease;
+}
+
+.project-card img{
+width:250px;
+height:250px;
+padding-left:8%;
+padding-top:8%;
+}
+
+.project-card-desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.project-card-desc h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #00FF00;
+}
+
+.project-card-desc p {
+    font-size: 1em;
+    color: white;
+    line-height: 1.4;
+}
+/* Latest Projects Section Styles */
+.latest-projects-section {
+    padding: 50px 20px;
+    background-color:#1e1e1e;
+    color: #00FF00;
+}
+
+.latest-projects-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.latest-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.project-item {
+    background-color: #035603;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.project-item h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #00FF00;
+}
+
+.project-item pre {
+    background-color: #1e1e1e;
+    padding: 15px;
+    overflow: auto;
+    border-left: 5px solid #008000;
+    color: #ffffff;
+}
+
+.project-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+/* Competition Section Styles */
+.projects-section, .latest-projects-section, .competition-section {
+    margin-top: 40px;
+}
+
+.competition-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+color:#00FF00;
+}
+
+.competition-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.project-card, .project-item, .competition-item {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #00FF00;
+}
+
+.competition-item h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #00FF00;
+}
+
+.competition-item p {
+    font-size: 1em;
+    color: white;
+}
+
+.competition-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+/* Latest Projects ve Competitions için hover efekti */
+.project-item pre:hover,
+.competition-section .competition-item:hover {
+    transform: scale(1.05); /* Öğeyi %105 büyüt */
+    border: 2px solid #00FF00; /* Yeşil kenarlık */
+    transition: transform 0.3s ease, border 0.3s ease; /* Yumuşak geçiş efekti */
+}
+
+
+footer {
+    padding: 20px;
+    text-align: center;
+    color: #E5E5E5;
+    margin-top: 40px;
+    border-top: 2px solid #00FF00; /* CMD yeşil rengi */
+}
+
+footer p {
+ margin: 0;
+    padding-bottom: 10px;
+}
+.social-icons a {
+    color: #00FF00; /* CMD yeşil rengi */
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+.social-icons a:hover {
+    color: #eda7a7;
+}
+
+/* Genel kaydırma çubuğu stilleri */
+
+/* WebKit tabanlı tarayıcılar (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    width: 10px; /* Kaydırma çubuğu genişliği */
+}
+
+::-webkit-scrollbar-track {
+    background: black; /* Kaydırma çubuğunun arka planı */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #022f02; /* Kaydırma çubuğunun rengi */
+    border-radius: 10px; /* Kenarları yuvarlama */
+    border: 3px solid #e0e0e0; /* Hafif kenarlık */
+}
+
+/* Firefox için kaydırma çubuğu stilleri */
+body {
+    scrollbar-color: #00a300 #f0f0f0; /* Kaydırma çubuğu ve arka plan renkleri */
+    scrollbar-width: thin; /* İnce kaydırma çubuğu */
+}
+
