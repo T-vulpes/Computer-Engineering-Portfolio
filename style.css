@@ -145,7 +145,7 @@ button {
 
 
 .projects-section {
-    margin-top: 100px; /* Proje bölümünü diğer içeriklerden sonra tutmak için boşluk ekleyin */
+    margin-top: 100px; 
     padding: 50px 20px;
 }
 
@@ -172,8 +172,8 @@ border-radius:5%;
 }
 
 .project-card:hover {
-    transform: scale(1.05); /* Üstüne gelince büyüme efekti */
-    border: 2px solid #00FF00; /* Yeşil kenarlık */
+    transform: scale(1.05);
+    border: 2px solid #00FF00; 
    transition: transform 0.3s ease, border 0.3s ease;
 }
 
@@ -200,7 +200,6 @@ padding-top:8%;
     color: white;
     line-height: 1.4;
 }
-/* Latest Projects Section Styles */
 .latest-projects-section {
     padding: 50px 20px;
     background-color:#1e1e1e;
@@ -249,7 +248,6 @@ padding-top:8%;
     margin-top: 20px;
 }
 
-/* Competition Section Styles */
 .projects-section, .latest-projects-section, .competition-section {
     margin-top: 40px;
 }
@@ -294,12 +292,11 @@ color:#00FF00;
     margin-top: 20px;
 }
 
-/* Latest Projects ve Competitions için hover efekti */
 .project-item pre:hover,
 .competition-section .competition-item:hover {
-    transform: scale(1.05); /* Öğeyi %105 büyüt */
-    border: 2px solid #00FF00; /* Yeşil kenarlık */
-    transition: transform 0.3s ease, border 0.3s ease; /* Yumuşak geçiş efekti */
+    transform: scale(1.05); 
+    border: 2px solid #00FF00; 
+    transition: transform 0.3s ease, border 0.3s ease; 
 }
 
 
@@ -308,15 +305,15 @@ footer {
     text-align: center;
     color: #E5E5E5;
     margin-top: 40px;
-    border-top: 2px solid #00FF00; /* CMD yeşil rengi */
+    border-top: 2px solid #00FF00; 
 }
 
 footer p {
  margin: 0;
-    padding-bottom: 10px;
+padding-bottom: 10px;
 }
 .social-icons a {
-    color: #00FF00; /* CMD yeşil rengi */
+    color: #00FF00;
     margin: 0 10px;
     font-size: 24px;
 }
@@ -325,26 +322,22 @@ footer p {
     color: #eda7a7;
 }
 
-/* Genel kaydırma çubuğu stilleri */
-
-/* WebKit tabanlı tarayıcılar (Chrome, Safari, Edge) */
 ::-webkit-scrollbar {
-    width: 10px; /* Kaydırma çubuğu genişliği */
+    width: 10px; 
 }
 
 ::-webkit-scrollbar-track {
-    background: black; /* Kaydırma çubuğunun arka planı */
+    background: black; 
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #022f02; /* Kaydırma çubuğunun rengi */
-    border-radius: 10px; /* Kenarları yuvarlama */
-    border: 3px solid #e0e0e0; /* Hafif kenarlık */
+    background-color: #022f02;
+    border-radius: 10px; 
+    border: 3px solid #e0e0e0; 
 }
 
-/* Firefox için kaydırma çubuğu stilleri */
 body {
-    scrollbar-color: #00a300 #f0f0f0; /* Kaydırma çubuğu ve arka plan renkleri */
-    scrollbar-width: thin; /* İnce kaydırma çubuğu */
+    scrollbar-color: #00a300 #f0f0f0; 
+    scrollbar-width: thin; 
 }
 
